@@ -24,6 +24,7 @@ Official desktop application for Proton Mail and Proton Calendar.
 
 **The beta version of the Proton Mail desktop app is restricted to anyone with a paid Proton Mail plan.**
 </description>
+    <releaseNotes>https://github.com/ProtonMail/inbox-desktop/releases/latest</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
