@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>protonmail</id>
+   <version>0.9.3</version>
+    <packageSourceUrl>https://github.com/TomGenco/au-packages</packageSourceUrl>
+    <owners>genco</owners>
+
+    <title>Proton Mail Beta</title>
+    <authors>Proton AG</authors>
+    <projectUrl>https://mail.proton.me/</projectUrl>
+    <iconUrl>http://rawcdn.githack.com/TomGenco/au-packages/master/protonmail/protonmail.png</iconUrl>
+    <copyright>2024 Proton AG</copyright>
+    <licenseUrl>https://github.com/ProtonMail/inbox-desktop/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/ProtonMail/inbox-desktop</projectSourceUrl>
+    <docsUrl>https://proton.me/support/mail-desktop-app</docsUrl>
+    <bugTrackerUrl>https://github.com/ProtonMail/inbox-desktop/issues</bugTrackerUrl>
+    <tags>protonmail proton mail calendar security privacy</tags>
+    <summary>Official desktop application for Proton Mail and Proton Calendar</summary>
+    <description>
+Official desktop application for Proton Mail and Proton Calendar.
+
+**The beta version of the Proton Mail desktop app is restricted to anyone with a paid Proton Mail plan.**
+</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
