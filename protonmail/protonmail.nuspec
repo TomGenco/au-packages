@@ -10,7 +10,7 @@
     <title>Proton Mail Beta</title>
     <authors>Proton AG</authors>
     <projectUrl>https://mail.proton.me/</projectUrl>
-    <iconUrl>http://rawcdn.githack.com/TomGenco/au-packages/master/protonmail/protonmail.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/TomGenco/au-packages/master/protonmail/protonmail.png</iconUrl>
     <copyright>2024 Proton AG</copyright>
     <licenseUrl>https://github.com/ProtonMail/inbox-desktop/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
