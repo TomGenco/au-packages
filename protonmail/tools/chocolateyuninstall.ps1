@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   # Cannot use just 'Proton Mail*' as softwareName, as it would conflict with the Proton Mail Bridge package when uninstalling
-  softwareName  = 'Proton Mail Beta*'
+  softwareName  = 'Proton Mail'
   fileType      = 'exe'
 
   silentArgs    = '--uninstall -s'

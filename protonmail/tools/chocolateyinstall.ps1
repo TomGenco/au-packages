@@ -2,8 +2,8 @@
 
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url      = 'https://github.com/ProtonMail/inbox-desktop/releases/download/v0.9.3/Proton.Mail.Beta-0.9.3.Setup.exe'
-$checksum = '3794278bf13f713c229ffb352ffbc3a5b743481787c4dfc66076f9d54d4e3b47'
+$url      = 'https://github.com/ProtonMail/inbox-desktop/releases/download/v1.0.0/Proton.Mail-1.0.0.Setup.exe'
+$checksum = 'efe5fccaaba5ed9e8e8295e9fb10daf707d2d3b38b27b2f7748bb3d8e3d59ce0'
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
@@ -11,7 +11,7 @@ $packageArgs = @{
   fileType       = 'exe'
   url            = $url
 
-  softwareName   = 'Proton Mail Beta*'
+  softwareName   = 'Proton Mail'
 
   checksum       = $checksum
   checksumType   = 'sha256'

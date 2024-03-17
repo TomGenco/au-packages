@@ -1,4 +1,4 @@
-﻿# <img src="https://rawcdn.githack.com/TomGenco/au-packages/master/protonmail/protonmail.png" width="48" height="48"/> [Proton Mail desktop app](https://chocolatey.org/packages/protonmail) (Beta)
+﻿# <img src="https://rawcdn.githack.com/TomGenco/au-packages/master/protonmail/protonmail.png" width="48" height="48"/> [Proton Mail desktop app](https://chocolatey.org/packages/protonmail)
 
 Official desktop application for Proton Mail and Proton Calendar.
 
@@ -21,7 +21,6 @@ Official desktop application for Proton Mail and Proton Calendar.
 - ICS files won’t open the app.
 
 ## Notes
-- **The beta version of the Proton Mail desktop app is restricted to anyone with a paid Proton Mail plan.**
 - The installer continues to execute after Chocolatey exits, and will flash on-screen for a brief moment
 - Does not seem to conflict with the Proton Mail Bridge package currently
 
